@@ -1,0 +1,67 @@
+# requirements.txt
+
+# Python 3.13 환경에서 설치 가능한 패키지로 수정
+# (prophet, pmdarima, holidays 등 일부 패키지는 Python 3.13에서 설치가 어려울 수 있습니다.)
+
+# 기본 데이터 처리 및 분석 라이브러리
+numpy
+pandas
+scipy
+
+# 시각화 라이브러리
+matplotlib
+seaborn
+plotly
+
+# 머신러닝 라이브러리
+scikit-learn
+xgboost
+lightgbm
+# prophet는 Python 3.13에서 공식 지원이 부족합니다.
+# 설치 오류 발생 시, Python 3.10 이하 환경에서만 사용하거나, 아래 명령어로 설치 시도:
+# pip install --pre prophet
+# prophet
+
+statsmodels
+
+# 시계열 분석 라이브러리
+# pmdarima는 Python 3.13에서 설치가 어려울 수 있습니다.
+# pmdarima
+
+# 유틸리티 라이브러리
+tqdm
+joblib
+# holidays 0.28은 Python 3.13에서 설치가 안 될 수 있으니 최신 버전 사용
+holidays
+
+# 날짜 및 시간 처리
+python-dateutil
+
+# API 요청 및 데이터 수집
+requests
+
+# 환경 변수 관리
+python-dotenv
+
+# 로깅 및 디버깅
+loguru
+
+# 선택적 의존성: 웹 대시보드 구현 시 필요
+# flask
+# streamlit
+
+# 선택적 의존성: 딥러닝 모델 구현 시 필요
+# tensorflow
+# torch
+
+# Flask 웹 프레임워크
+Flask
+
+# 데이터베이스 연동 예시 (sqlite3는 내장, 필요시 SQLAlchemy)
+SQLAlchemy
+
+# 기타 필요한 패키지 예시
+# pandas
+# numpy
+
+# 만약 특정 패키지에서 설치 오류가 난다면, 해당 패키지와 버전을 알려주세요.
